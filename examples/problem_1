@@ -1,0 +1,17 @@
+ = 1
+sum = 0
+
+numbers = []
+
+while i < 10
+  if (i % 3 == 0) || (i % 5 == 0)
+    numbers.push(i)
+  else
+   "#{i} is not a multiple of 3"
+  end
+  i += 1
+end
+
+p numbers
+numbers.each { |n| sum += n}
+p sum
